@@ -1,0 +1,18 @@
+#page-wrap{
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+#survey-form, p {
+  background-color: lightgreen;
+  line-height: 150%;
+  word-spacing: 0px;
+}
+.words, #title, p{
+  font-weight: bold;
+  color: indigo;
+}
+#title{
+  background-color: lightgreen;
+}
+

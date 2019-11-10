@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+ <div id="page-wrap"> 
+ <body>
+   <h1 id="title">Survey Form Freecodecademy Project</h1>
+   <p id="description">
+     This is a form I'm working on for a freecodecademy project to build interactive websites
+   </p>
+   
+  <form id="survey-form">
+    <label class="words" id="name-label">Name:</label><input id="name" type="text" placeholder="First and last name" required></input>
+    <label class="words" id="email-label">Email:</label><input id="email" type="email" placeholder="Please type email here" required></input><br>
+    <label class="words" id="number-label">Number:</label><input id="number" type="number" placeholder="# 0-1000000" min="0" max="1000000"></input>
+    <label class="words" id="select">Select from the following:</label>
+    <select id="dropdown">
+      <option value="tired">I'm tired</option>
+      <option value="hungry">I'm hungry</option>
+      <option value="new">I'm new to coding</option>
+      <option value="hiring">I'm going to hire you!</option>
+    </select><br> 
+    <label class="words">Gender:</label>
+    <input id="male" type="radio" name="gender" value="male">Male</input>
+    <input id="female" type="radio" name="gender" value="female">Female</input><br>
+    <label class="words" id="what-to-do"> You think I should:</label><input id="checkbox" type="checkbox" value="go">Keep at it</input>
+    <input id="checkbox" type="checkbox" value="stop">Give up coding forever</input>
+    <input id="checkbox" type="checkbox" value="hired">Work for you!</input><br>
+    <label class="words" id="comments"> Any additional comments:</label><br>
+    <textarea rows="8" cols="40"></textarea><br>
+    <input id="submit" type="submit"></input>
+  </form>
+</div
+</body>
+</html>
+
